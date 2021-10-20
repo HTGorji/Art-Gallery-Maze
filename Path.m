@@ -7,7 +7,7 @@ classdef Path
 		maze(1,1)		Navigation.Maze
 	end
 	
-	properties (Access = publi)
+	properties (Access = public)
 		subject(1,1)	string = ''
 		time(1,1)		datetime
 	end
