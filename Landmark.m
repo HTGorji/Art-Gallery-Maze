@@ -7,7 +7,7 @@ classdef Landmark < Navigation.internal.MazeElement
 	methods
 		function L = Landmark (varargin)
 			L = L@Navigation.internal.MazeElement(varargin{:});
-			if nargin > 1
+			if nargin > 2
 				L.position = varargin{2};
 			end
 			if nargin > 2
