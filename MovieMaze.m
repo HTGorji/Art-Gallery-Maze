@@ -1,5 +1,5 @@
 T=Museum.Trial(11,2);
-read(T)
+rea(T)
 split(T)
 analyzePath(T)
 movie(T)
